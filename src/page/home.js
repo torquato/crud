@@ -1,8 +1,13 @@
+import { Container, Typography } from '@mui/material';
 import React from 'react'
 
 function home() {
   return (
-    <div>Exemplo de CRUD</div>
+    <Container maxWidth="xl">
+      <Typography  component="h1">
+        Exemplo de CRUD
+      </Typography>
+    </Container>
   )
 }
 
